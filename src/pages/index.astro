@@ -30,22 +30,22 @@ const projects = (await getCollection('work'))
 		<div class="wrapper stack gap-8 lg:gap-20">
 			<header class="hero">
 				<Hero
-					title="Hello, my name is Jeanine White"
-					tagline="I am a Creative Developer who is currently based in Portland, Oregon."
+					title="Hola, mi nombre es Omar Ramirez"
+					tagline="Soy programador full-stack y vivo en los mochis, Sinaloa"
 					align="start"
 				>
 					<div class="roles">
-						<Pill><Icon icon="code" size="1.33em" /> Developer</Pill>
-						<Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
-						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill>
+						<Pill><Icon icon="code" size="1.33em" /> Programador</Pill>
+						<!-- <Pill><Icon icon="microphone-stage" size="1.33em" /> Speaker</Pill>
+						<Pill><Icon icon="pencil-line" size="1.33em" /> Writer</Pill> -->
 					</div>
 				</Hero>
 
 				<img
-					alt="Jeanine White smiling in a red plaid shirt and tortoise shell glasses"
+					alt="Omar Ramirez sonriendo con playera roja"
 					width="480"
 					height="620"
-					src="/assets/portrait.jpg"
+					src="/assets/portada.jpeg"
 				/>
 			</header>
 
@@ -55,11 +55,11 @@ const projects = (await getCollection('work'))
 		<main class="wrapper stack gap-20 lg:gap-48">
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
-					<h3>Selected Work</h3>
-					<p>Take a look below at some of my featured work for clients from the past few years.</p>
+					<h3>Elige un proyecto</h3>
+					<p>Te invitó a ver un poco de los últimos proyectos en los que he participado </p>
 				</header>
 
-				<div class="gallery">
+				<!-- <div class="gallery">
 					<Grid variant="offset">
 						{
 							projects.map((project) => (
@@ -69,17 +69,17 @@ const projects = (await getCollection('work'))
 							))
 						}
 					</Grid>
-				</div>
+				</div> -->
 
 				<div class="cta">
 					<CallToAction href="/work/">
-						View All
+						Ver todos
 						<Icon icon="arrow-right" size="1.2em" />
 					</CallToAction>
 				</div>
 			</section>
 
-			<section class="section with-background bg-variant">
+			<!-- <section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Mentions</h3>
 					<p>
@@ -99,7 +99,7 @@ const projects = (await getCollection('work'))
 						}
 					</Grid>
 				</div>
-			</section>
+			</section> -->
 		</main>
 
 		<ContactCTA />
@@ -196,7 +196,7 @@ const projects = (await getCollection('work'))
 
 	@media (min-width: 50em) {
 		.section {
-			grid-template-columns: repeat(4, 1fr);
+			grid-template-columns: repeat(1, 1fr);
 			grid-template-areas: 'header header header header' 'gallery gallery gallery gallery';
 			gap: 5rem;
 		}
