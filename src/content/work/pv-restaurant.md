@@ -1,6 +1,6 @@
 ---
 title: Punto de Venta para Restaurantes
-publishDate: 2024-10-28 00:00:00
+publishDate: 2024-10-27 00:00:00
 img: /assets/Compu7-Restaurant.png
 img_alt: Collage de imagenes de distintos formulario que tiene el sistema. 
 description: |
@@ -9,7 +9,6 @@ tags:
   - Visual Basic
   - SQL Server
   - Windows Forms
-  - Crystal Reports
 ---
 
 Este proyecto, inicialmente desarrollado por otro programador, requería una refactorización completa para su lanzamiento comercial. Mi objetivo principal fue optimizar el código existente, permitiendo a la compañía comercializarlo exitosamente con otros clientes.

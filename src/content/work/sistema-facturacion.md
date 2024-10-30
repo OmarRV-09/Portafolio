@@ -9,7 +9,7 @@ tags:
   - Visual Basic
   - SQL Server
   - Windows Forms
-  - Crystal Reports
+  
 ---
 
 En este proyecto, mis responsabilidades clave incluyeron:
