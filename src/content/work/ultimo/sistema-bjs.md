@@ -15,9 +15,14 @@ tags:
 
 BlackJaguar Security me contrató para diseñar y desarrollar un sistema web personalizado que satisficiera sus necesidades específicas. Como desarrollador único, me encargué de:
 
-- Crear módulos nuevos
-- Actualizar módulos existentes
-- Capacitar a los usuarios finales
+- Diseñar y actualizar módulos de software según los requerimientos específicos de la empresa.
+- Desarrollar y mantener la infraestructura de la base de datos, incluyendo la creación de tablas, procedimientos almacenados y triggers.
+- Realizar respaldos regulares de la base de datos para garantizar la integridad y seguridad de los datos.
+- Capacitar al personal de la empresa en el manejo del sistema.
+- Identificar y corregir errores y fallas en el sistema para asegurar su funcionamiento óptimo.
+- Generar reportes personalizados para distintos módulos y departamentos.
+- Presentar informes de avances y progreso a los líderes de la empresa.
+
 
 El resultado fue un sistema integral similar a un ERP. Para su desarrollo, utilicé:
 
